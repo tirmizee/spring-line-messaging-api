@@ -1,0 +1,5 @@
+spring.application.name: spring-line-messaging-api
+line.bot:
+  api-url: https://api.line.me/v2/bot
+  channel-token: YOUR_LINE_CHANNEL_ACCESS_TOKEN
+
