@@ -2,7 +2,7 @@
 
 โปรเจกต์นี้เป็นตัวอย่างการเชื่อมต่อกับ [LINE Messaging API](https://developers.line.biz/en/services/messaging-api/) ด้วย Spring Boot และ WebClient (Reactive)
 
-ใช้สำหรับส่งข้อความประเภทต่าง ๆ เช่น:
+ใช้สำหรับส่งข้อความประเภทต่าง ๆ เช่น
 - ✅ Push Message
 - 💬 Reply Message
 - 📢 Broadcast Message
@@ -169,7 +169,7 @@ class LineMessagingServiceTest {
 
 ```
 
-5. Demo
+### 5. Demo
 
 ```text
 11:45:34.646 [reactor-http-nio-2] INFO com.tirmizee.service.LineMessagingService -- LINE API Push Response: {"sentMessages":[{"id":"553146540345262658","quoteToken":"dnqTAHAvQDjoR-ednvXKIeqrIA17haENrYy0nYj3TfP9Ywk89v6ClgJZrWUBAIxSWf6JkYXbbjTDeTXZOIO7LjxQTlFmRrsnSPH_1q1SZNDTHMp7GFQpQZGM2uQlln4gSPHU4EyEVrOvSx3mBpJ3pw"}]}
